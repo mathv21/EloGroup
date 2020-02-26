@@ -13,10 +13,12 @@
 */
 
 
-O que esta sendo utilizado no Back-End ?  =>  JavaScript + Node.js + Express.
+|> O que esta sendo utilizado no Back-End ?  =>  JavaScript + Node.js + Express.
 
 Instalar: Express
 
-O que esta sendo utilizado no Front-End ? => ReactJS 
+|> O que esta sendo utilizado no Front-End ? => ReactJS 
+
+|> Banco de Dados: MongoDb
 
 
