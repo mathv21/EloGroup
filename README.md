@@ -11,7 +11,6 @@
 * Processo : Em Desenvolvimento..
 * Data Inicio: 26/02/2020
 * Conclusão: 
-*/
 
 
 |> O que esta sendo utilizado no Back-End ?  =>  JavaScript + Node.js + Express.
