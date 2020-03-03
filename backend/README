@@ -1,0 +1,15 @@
+/*
+
+|> Desenvolvido por: Matheus Veríssimo. />
+|>  Objetivo: Fazer um Formulario que armazena dados dos usuarios em Json.
+|> Data Inicio: 01/02/2020
+|> Conclusão: 03/02/2020 
+
+*/
+
+! ANTES DE UTILIZAR A API.
+
+=> ENTRE NO SEU TERMINAL DENTRO DA PASTA BACKEND.
+=> DENTRO DA PASTA BACKEND DÊ O SEGUINTE COMANDO: yarn.
+
+|> FEITO ISSO INSTALARAR TODAS AS DEPENDENCIAS DO PROJETO.

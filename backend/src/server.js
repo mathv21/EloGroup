@@ -1,9 +1,15 @@
+// |> Importações.
 import express from 'express';
+import cors from 'cors';
 import mongoose from 'mongoose';
 import requireDir from 'require-dir';
 
+// |> Utilizando o Express.
 const app = express();
+app.use(express.json());
+app.use(cors());
 
+// |> Fazendo Conexão com Banco de Dados.
 mongoose.connect("mongodb://localhost:27017/formuser",
     {
         useNewUrlParser:true,
@@ -12,8 +18,8 @@ mongoose.connect("mongodb://localhost:27017/formuser",
 );
 requireDir("./models");
 
-//Rotas
+// |> Fazendo o uso das Rotas.
 app.use('/', require('./routes'));
 
-//Fazer com que a porsta 8080 escute a api
+// |> Faz com que a porta 8080 escute a api
 app.listen(8080);
