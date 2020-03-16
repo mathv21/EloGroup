@@ -1,0 +1,51 @@
+.Users-List{
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.Users-List article{
+    background:#2f343a;
+    border: 1px solid #2f343a;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.Users-List article p{
+    font-size: 16px;
+    color: #999;
+    margin-top: 5px;
+    line-height: 35px;
+}
+
+.Users-List .actions{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.Users-List .actions button{
+    padding: 10px;
+    border-radius: 15px;
+    border: 0;
+    background-color: #dc4b4f;
+    background-image: linear-gradient(-90deg, #dc4b4f, #fa6453); 
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.Users-List .actions button[disabled]{
+    opacity: 0.5;
+    cursor: default;
+}
+
+.Users-List .actions button:hover{
+    opacity: 0.7;
+}
+
+.Users-List .actions button[disabled]:hover{
+    opacity: 0.5;
+}

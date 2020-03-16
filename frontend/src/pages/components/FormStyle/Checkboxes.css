@@ -1,0 +1,63 @@
+div .Checkboxes{
+    height: 130px;
+    display: inline-block;
+    position: relative;
+    padding-left: 100%;
+    top: 40px;
+    background-color:#fff;
+    border-radius: 10px;
+    color: rgb(75, 70, 70);
+    text-align: center;
+}
+
+.box label[for="one"] {
+    font-size: 15px;
+    color: #4D4D4D;
+    position: absolute;
+    left: 15px;
+    bottom: 75%;
+    cursor: pointer;
+}
+
+
+.box label[for="two"] {
+    font-size: 15px;
+    color: #4D4D4D;
+    position: absolute;
+    z-index: 10;
+    left: 15px;
+    bottom: 45%;
+    cursor: pointer;
+}
+
+.box label[for="three"] {
+    font-size: 15px;
+    color: #4D4D4D;
+    position: absolute;
+    z-index: 10;
+    left: 15px;
+    bottom: 15%;
+    cursor: pointer;
+}
+
+.box input[id="one"] {
+     position: relative;
+     bottom: 1px;
+     left: -270% !important;
+     cursor: pointer;
+}
+
+.box input[id="two"] {
+    position: relative;
+    bottom: 28px;
+    left: -270% !important;
+    cursor: pointer;
+}
+
+.box input[id="three"] {
+    position: relative;
+    bottom: 55px;
+    left: -270% !important;
+    cursor: pointer;
+}
+

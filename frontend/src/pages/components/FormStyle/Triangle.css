@@ -1,0 +1,21 @@
+.triangle-right {
+  position: relative;
+  right: 34%;
+  bottom: 340px;
+  width: 20px;
+  height: 20px;
+  border-left: solid 170px #fa5f4e;
+  border-bottom: solid 120px transparent;
+  border-top: solid 90px transparent;
+  }
+
+.triangle-left{
+  position: relative;
+  left: 119%;
+  top: 50px;
+  width: 30px;
+  height: 140px;
+  border-right: solid 180px #fa5f4e;
+  border-bottom: solid 90px transparent;
+  border-top: solid 120px transparent;
+}

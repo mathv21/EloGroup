@@ -1,0 +1,93 @@
+
+/* |> Estilizando + animando os Botões tipo radio */
+
+.switch {
+    position: absolute;
+    bottom: 35%;
+    left: 38%;
+    width: 115px;
+    height: 25px;
+    text-align: center;
+    margin: -30px 0 0 -70px;
+    background: #fa5f4e;
+    transition: all 0.2s ease;
+    border-radius: 25px;
+    font-weight: bold;
+  }
+
+  .switch span {
+    position: absolute;
+    width: 20px;
+    height: 4px;
+    top: 50%;
+    left: 50%;
+    margin: -2px 0px 0px -4px;
+    background: #fff;
+    display: block;
+    transform: rotate(-45deg);
+    transition: all 0.2s ease;
+  }
+
+  .switch span:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 4px;
+    height: 12px;
+    margin-top: -8px;
+    background: #fff;
+    transition: all 0.2s ease;
+  }
+
+  input[type=radio] {
+    display: none;
+  }
+
+  .switch label {
+    cursor: pointer;
+    color: rgba(3, 3, 3, 0.2);
+    width: 60px;
+    line-height: 50px;
+    transition: all 0.2s ease;
+  }
+
+  label[for=yes] {
+    position: absolute;
+    left: 0px;
+    height: 20px;
+    bottom: 32px;
+  }
+
+  label[for=no] {
+    position: absolute;
+    left: 60px;
+    bottom: 2px;
+  }
+
+  #no:checked ~ .switch {
+    background: #dc4b4f;
+  }
+
+  #no:checked ~ .switch span {
+    background: #fff;
+    margin-left: -8px;
+  }
+
+  #no:checked ~ .switch span:after {
+    background: #fff;
+    height: 20px;
+    margin-top: -8px;
+    margin-left: 8px;
+  }
+
+  #yes:checked ~ .switch {
+    background: #15d68c;
+  }
+
+  #yes:checked ~ .switch label[for=yes] {
+    color: #fff;
+  }
+
+  #no:checked ~ .switch label[for=no] {
+    color: #fff;
+  }

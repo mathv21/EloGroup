@@ -1,0 +1,80 @@
+/*
+    fazendo a estrutura do box para o formulario
+*/
+
+div .box-form{
+    background: #1f2229;
+    width: 53%;
+    border-radius: 6px;
+    border: 1px #2f343a !important;  
+    position: relative;
+    left: 9%;
+    padding: 6%;
+    padding-top: 26%;
+    box-shadow: 2px 2px 2px rgb(22, 22, 22);
+    top: 38px;
+}
+
+/* |> Estilizando o texto dentro do input */
+.formElo h3{
+    color: #ddd;
+    font-size: 30px;
+    font-weight: normal;
+    position: relative;
+    left: 150px;
+    bottom: 270px;
+}
+/* |> Estilizando o input para o formulario */
+.formElo input{ 
+   position: relative;
+   margin-bottom: 40px;
+   border: 1px solid #DDD;
+   width: 65%;
+   height: 40px;
+   padding: 0 15px;
+   font-size: 14px;
+   border-radius: 10px;
+   left: 95px;
+   bottom: 200px;
+}
+
+/* |> Estilizando  botão de select */
+.formElo select{
+    position: relative;
+    margin-bottom: 30px;
+    border: 1px solid #DDD;
+    width: 65%;
+    height: 40px;
+    left: 95px;
+    bottom: 200px;
+}
+
+.formElo label[name="Redes"]{
+    position: relative;
+    color: #DDD;
+    display: flex;
+    left: 20%;
+    bottom: 190px;
+}
+
+.formElo button[type="submit"]{
+    width: 28%;
+    border: 0;
+    margin-top: 20px;
+    background-color: #dc4b4f;
+    background-image: linear-gradient(-90deg, #dc4b4f, #fa6453); 
+    border-radius: 15px;
+    padding: 10px 15px;
+    font-size: 11px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.5;
+    position: relative;
+    left: 35%;
+    top: 20px;
+}
+
+.formElo button[name="buttom-Elo"]:hover{
+    background:#fa6453 ;
+}

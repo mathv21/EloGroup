@@ -1,0 +1,18 @@
+*{
+    margin-bottom: -15px;
+    margin: none;
+    padding: none;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body{
+    padding-bottom:10px;
+    -webkit-font-smoothing:antialiased;
+    background: #1f2229 !important;    
+    color: #FFF;
+}
+
+body, input, button{
+    font-family: Roboto, sans-serif;
+}
