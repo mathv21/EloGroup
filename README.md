@@ -22,4 +22,14 @@ Instalar: Express
 
 |> Banco de Dados: MongoDb utilizando Docker
 
+  _______________________
+
+HIERARQUIA DE ARQUIVOS:
+
+|> Pasta BackEnd = Fica todo o script envolvendo banco dados ( Dê um  "Yarn" para instalar todas as dependencia);
+|> Pasta FrontEnd = Fica toda parte Visual do Formulario  (Dê um  "Yarn" para instalar todas as dependencia);
+|> Sketch = modelo de como iria ficar o Formulario.
+|> Diagram = Diagrama feito para orientação na implementação.
+
+
 
