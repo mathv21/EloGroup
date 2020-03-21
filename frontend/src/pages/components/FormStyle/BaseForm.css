@@ -2,6 +2,7 @@ body .formBase{
     position: relative;
     background:#2f343a !important;
     padding: 20%;
+    margin: 20px auto;
     margin-top: -8px;
     margin-left: -6px;
     margin-right: -6px;
@@ -13,6 +14,8 @@ body .formBase{
 div .LogoElo{
    position: relative;
    width: 100%;
+   max-width: 987px;
+   margin: 0px auto;
    height: 70px;
    display: flex;
    justify-content: center;
@@ -21,35 +24,47 @@ div .LogoElo{
    bottom: 370px;
 }
 
-div .LogoElo img{
-   width: 17%;
+.LogoElo img{
+   width: 20%;
+   max-width: 20%;
    display: flex;
    position: relative;
-   left: 73% !important;
-   margin-bottom: 69%;
+   left: 79% !important;
+   margin-bottom: 80%;
 }
 
 
 
-div .LogoElo h1{
+.LogoElo h1{
+   width: 100%;
+   font-size: 34px;
+   max-width: 100%;
    margin-bottom: 62%;
    position: relative;
-   left:50%;
+   left:54%;
+   bottom: 20px;
    color: #dc4b4f;    
 }
 
-div .LogoElo h4{
+.LogoElo h4{
+   width: 100%;
+   max-width: 20px;
+   font-size: 32px !important;
    display: inline-block !important;
    font-family: Arial, Helvetica, sans-serif;
    font-weight: normal;
    position: relative;
    color:#fa6453;
+   bottom: 485%;
+   left: 41%;
 }
 
 .formElo label[name="rs"]{
+   max-width: 100%;
+   width: 100%;
    margin-top: 30px;
    position: relative;
-   left: 35px;
+   left: 36px;
    bottom: 30px;
    font-size: 15px;
    font-weight: bold;

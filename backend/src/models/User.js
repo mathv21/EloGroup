@@ -1,18 +1,13 @@
 // |> Importações
-import mongoose from 'mongoose';
+import mongoose, { Mongoose } from 'mongoose';
 import mongoosePaginate from 'mongoose-paginate';
 
 // |> Schema dos dados para o BD.
 const UserSchema = new mongoose.Schema({
+
     Name:{
-        firstName:{
-            type: String,
-            required: false
-        }, 
-        lastName:{
-            type: String,
-            required: false
-        }
+        type:String,
+        required:true
     },
     Telphone:{
         type: String,
@@ -23,9 +18,7 @@ const UserSchema = new mongoose.Schema({
       type: String
     },
 
-    SocialMidia:[
-        '',
-    ],
+    SocialMidia:[String],
 
     createdAt:{
         type: Date,

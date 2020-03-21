@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import api from '../../services/api';
 import './styles.css';
+import undraw  from '../../assets/undrawn.svg'
 
 export default class Main extends Component{
 
@@ -50,7 +51,7 @@ export default class Main extends Component{
            <div className="Users-List">
                {users.map(user => (
                    <article key={user._id}>
-                       <strong>{user.Name.firstName} {user.Name.lastName}</strong>
+                       <strong>{user.Name}</strong>
                        <p>Telefone: {user.Telphone}</p>
                        <p>Como nos Conheceu?: {user.Cnc}</p>
                        <p>Redes Sociais: {user.SocialMidia}</p>
@@ -61,7 +62,7 @@ export default class Main extends Component{
                    <button disabled={page === 1} onClick={this.prevPage}>Anterior</button>
                    <button disabled={ page === userInfo.pages} onClick={this.nextPage}>Proximo</button>
                </div>
-           </div>           
+           </div>  
         );
     }
 }

@@ -2,39 +2,45 @@
     fazendo a estrutura do box para o formulario
 */
 
-div .box-form{
+.box-form{
     background: #1f2229;
-    width: 53%;
+    width: 200%;
+    max-width: 100%;
+    margin: 20px 15px 1px auto;
     border-radius: 6px;
     border: 1px #2f343a !important;  
     position: relative;
-    left: 9%;
+    left: 15%;
     padding: 6%;
-    padding-top: 26%;
+    padding-top: 25%;
     box-shadow: 2px 2px 2px rgb(22, 22, 22);
-    top: 38px;
+    top: 50px;
 }
 
 /* |> Estilizando o texto dentro do input */
 .formElo h3{
+    width: 100%;
+    max-width: 980px;
+    margin: 20px auto;
     color: #ddd;
     font-size: 30px;
     font-weight: normal;
     position: relative;
-    left: 150px;
-    bottom: 270px;
+    left: 140px;
+    bottom: 240px;
 }
 /* |> Estilizando o input para o formulario */
 .formElo input{ 
    position: relative;
    margin-bottom: 40px;
    border: 1px solid #DDD;
-   width: 65%;
+   width: 70%;
+   max-width: 100%;
    height: 40px;
    padding: 0 15px;
    font-size: 14px;
    border-radius: 10px;
-   left: 95px;
+   left: 80px;
    bottom: 200px;
 }
 
@@ -43,9 +49,9 @@ div .box-form{
     position: relative;
     margin-bottom: 30px;
     border: 1px solid #DDD;
-    width: 65%;
+    width: 70%;
     height: 40px;
-    left: 95px;
+    left: 80px;
     bottom: 200px;
 }
 
@@ -53,7 +59,7 @@ div .box-form{
     position: relative;
     color: #DDD;
     display: flex;
-    left: 20%;
+    left: 18%;
     bottom: 190px;
 }
 
