@@ -3,7 +3,7 @@
 />
 
   _______________________                     
-    ##**EloGroupProject    
+    **EloGroupProject    
   _______________________
   
   ![git-small](https://i.imgur.com/snVFDdT.png)
